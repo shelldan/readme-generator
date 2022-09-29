@@ -47,6 +47,5 @@ THEN I am taken to the corresponding section of the README
 
 
 ## Video Demonstration 
-https://drive.google.com/file/d/16irVHKnwhGI9ElGUJyabWoP_k2vuarCg/view 
+https://drive.google.com/file/d/16irVHKnwhGI9ElGUJyabWoP_k2vuarCg/view?usp=sharing
 
-[](../../../../../../Downloads/Untitled_%20Sep%2029,%202022%2012_27%20PM.webm)
