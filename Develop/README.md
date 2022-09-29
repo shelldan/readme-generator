@@ -1,9 +1,9 @@
-# costco
+[![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)](https://github.com/shelldan)
 
-[![GitHub License](https://img.shields.io/github/license/shelldan/readme_generator)](https://github.com/shelldan)
+# 1
 
 ## Description
-saving
+2
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,19 +15,19 @@ saving
 
 
 ## Installation
-store
+3
 
 ## Usage
-apple
+4
 
 ## Contribution
-no cont
+5
 
 ## Test
-no test
+6
 
 ## License
-* The application is covered under MIT
+* The application is covered under GPL
 
 ## Question
 * Click [here](https://github.com/shelldan) to go to my Github Repositories

@@ -15,9 +15,9 @@ const generateREADME = ({
     github,
     email,
 }) =>
-`# ${title}
+`[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)](https://github.com/${github})
 
-[![GitHub License](https://img.shields.io/github/license/shelldan/readme_generator)](https://github.com/${github})
+# ${title}
 
 ## Description
 ${description}
