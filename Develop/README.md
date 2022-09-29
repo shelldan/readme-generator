@@ -45,9 +45,6 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Deployed Website
-https://shelldan.github.io/readme_generator/ 
-
 
 ## Video Demonstration 
 https://drive.google.com/file/d/16irVHKnwhGI9ElGUJyabWoP_k2vuarCg/view 
