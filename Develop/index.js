@@ -2,57 +2,8 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 const { title } = require('process') //why it auto generate? 
-const util = require('util')
-
-const generateREADME = ({ 
-    title, 
-    description,
-    installation,
-    usage,
-    contribution,
-    test, 
-    license,
-    github,
-    email,
-}) =>
-`[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)](https://github.com/${github})
-
-# ${title}
-
-## Description
-${description}
-
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contribution](#contribution)
-* [Test](#test)
-* [License](#license)
-* [Question](#question)
-
-
-## Installation
-${installation}
-
-## Usage
-${usage}
-
-## Contribution
-${contribution}
-
-## Test
-${test}
-
-## License
-* The application is covered under ${license}
-
-## Question
-* Click [here](https://github.com/${github}) to go to my Github Repositories
-* feel free to reach me at ${email} if you have additional questions
-
-`
-
-
+// const util = require('util')
+const generateREADME = require('./utils/generateMarkdown')
 
 
 // TODO: Create an array of questions for user input
@@ -93,7 +44,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'what is the license?',
-        choices: ['MIT','GPLv3','GPL']
+        choices: ['MIT','GPLv3','GPL','NO-License']
     },
     {
         type: 'input',
@@ -115,7 +66,7 @@ inquirer
 })
 
 // // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+// // function writeToFile(fileName, data) {}
 
 // // TODO: Create a function to initialize app
 // function init() {}

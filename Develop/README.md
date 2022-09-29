@@ -1,4 +1,4 @@
-[![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)](https://github.com/shelldan)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/shelldan)
 
 # 1
 
@@ -27,7 +27,7 @@
 6
 
 ## License
-* The application is covered under GPL
+    * The application is covered under MIT
 
 ## Question
 * Click [here](https://github.com/shelldan) to go to my Github Repositories
