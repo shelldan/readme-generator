@@ -2,8 +2,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 const { title } = require('process') //why it auto generate? 
-// const util = require('util')
-const generateREADME = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown') 
 
 
 // TODO: Create an array of questions for user input
@@ -33,7 +32,7 @@ inquirer
     {
         type: 'input',
         name: 'contribution',
-        message: 'How to make contribution for the APP?'
+        message: 'How many contributor(s)?'
     },
     {
         type: 'input',
@@ -58,19 +57,18 @@ inquirer
     },
 ])
 .then((answers)=>{
-    const readmeContent = generateREADME(answers);
+    const readmeContent = generateMarkdown(answers);
 
-    fs.writeFile('README.md',readmeContent,(err)=> err
+    fs.writeFile('Markdown.md',readmeContent,(err)=> err
     ? console.log(err)
-    : console.log('Successfully created README.md'))
+    : console.log('Successfully created Markdown.md'))
 })
 
-// // TODO: Create a function to write README file
-// // function writeToFile(fileName, data) {}
 
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
+// preAnswer
+// 1.README Generator
+// 2.Generate a README for any GitHub project through a series of questions and generate a formatted Markdown file.
+// 3.First, clone the repo to your local machine. Then, within the cloned folder run 'npm install' to install the necessary packages.
+// 4.This provides a quick and easy way to generate a formatted README file for any GitHub project.
+// 5.2 Contributors
+// 6.run 'node index.js' on the command line and answer through the questions; if successful, it will generate a Markdown.md file; 

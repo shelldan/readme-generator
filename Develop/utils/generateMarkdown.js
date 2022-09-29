@@ -33,7 +33,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-const generateREADME = ({ 
+const generateMarkdown = ({ 
   title, 
   description,
   installation,
@@ -80,4 +80,4 @@ ${renderLicenseSection(license)}
 
 `;
 
-module.exports = generateREADME;
+module.exports = generateMarkdown;
