@@ -1,22 +1,24 @@
 # costco
 
+[![GitHub License](https://img.shields.io/github/license/shelldan/readme_generator)](https://github.com/shelldan)
+
 ## Description
 saving
 
 ## Table of Contents
-* [Installation](doc:Installation)
-* Usage
-* Contribution
-* Test
-* License
-* Question
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Test](#test)
+* [License](#license)
+* [Question](#question)
 
 
 ## Installation
-apple
+store
 
 ## Usage
-money
+apple
 
 ## Contribution
 no cont
@@ -25,7 +27,7 @@ no cont
 no test
 
 ## License
-* MIT
+* The application is covered under MIT
 
 ## Question
 * Click [here](https://github.com/shelldan) to go to my Github Repositories

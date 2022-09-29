@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 const fs = require('fs')
-const { title } = require('process')
+const { title } = require('process') //why it auto generate? 
+const util = require('util')
 
 const generateREADME = ({ 
     title, 
@@ -16,16 +17,18 @@ const generateREADME = ({
 }) =>
 `# ${title}
 
+[![GitHub License](https://img.shields.io/github/license/shelldan/readme_generator)](https://github.com/${github})
+
 ## Description
 ${description}
 
 ## Table of Contents
-* [Installation](doc:Installation)
-* Usage
-* Contribution
-* Test
-* License
-* Question
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Test](#test)
+* [License](#license)
+* [Question](#question)
 
 
 ## Installation
@@ -41,7 +44,7 @@ ${contribution}
 ${test}
 
 ## License
-* ${license}
+* The application is covered under ${license}
 
 ## Question
 * Click [here](https://github.com/${github}) to go to my Github Repositories
